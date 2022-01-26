@@ -44,8 +44,8 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
           jkdck = jkdckArr[i]
           $.index = i + 1;
         
-console.log(`\n群【970932401】`)
-console.log(`\n天雪楼【http://txlou.club】`)
+          console.log(`\n群【970932401】`)
+          console.log(`\n天雪楼【http://txlou.club】`)
           console.log(`\n开始【聚看点${$.index}】`)
 
 await qx()
