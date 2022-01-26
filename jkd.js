@@ -11,7 +11,7 @@ export jkdck='{"Cookie":"xz_jkd_appkey=替换的CK"}'
 */
 // [task_local]
 
-const $ = new Env('聚看点');
+const $ = new Env('聚看点txlou.club');
 let status;
 status = (status = ($.getval("jkdstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
 let jkdhdArr = [],jkdckArr = [],jzreadcount = ''
