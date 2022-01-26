@@ -1,5 +1,5 @@
 /*
-##http://txlou.club##
+hostname = *.xiaodouzhuan.cn
 ##点任务获取数据##
 ===========ql===========
 变量
@@ -9,9 +9,8 @@ export jkdck='{"Cookie":"xz_jkd_appkey=替换的CK"}'
 
 多账号用@隔开
 */
-// [task_local]
 
-const $ = new Env('聚看点txlou.club');
+const $ = new Env('天雪聚看点');
 let status;
 status = (status = ($.getval("jkdstatus") || "1") ) > 1 ? `${status}` : ""; // 账号扩展字符
 let jkdhdArr = [],jkdckArr = [],jzreadcount = ''
@@ -38,12 +37,12 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
             jkdckArr.push($.getdata(`jkdck${i}`))
             }
     console.log(`------------- 共${jkdhdArr.length}个账号-------------\n`)
-for (let i = 0; i < jkdhdArr.length; i++) {
+      for (let i = 0; i < jkdhdArr.length; i++) {
         if (jkdhdArr[i]) {
           jkdhd = jkdhdArr[i];
           jkdck = jkdckArr[i]
           $.index = i + 1;
-       
+        
           console.log(`\n开始【聚看点${$.index}】`)
 
 await qx()
@@ -78,6 +77,8 @@ await qx()
                 jkdck = jkdckArr[k]
                 $.index = k + 1;
           console.log(`\n开始【聚看点${$.index}】`)
+          console.log(`天雪楼：http://txlou.club`)
+          console.log(`Q群：970932401`)
           //$.log(jkdhd)
 await ql()
 	        }
