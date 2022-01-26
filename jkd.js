@@ -1,8 +1,7 @@
 /*
+##http://txlou.club##
 ##点任务获取数据##
 ===========ql===========
-拉取
-ql raw http://47.101.146.160/scripts/jkd.js
 变量
 export jkdhd='{"openid": "替换的CK"}' 同CK 后面不需要!iOS!5.6.5
 
@@ -11,7 +10,6 @@ export jkdck='{"Cookie":"xz_jkd_appkey=替换的CK"}'
 多账号用@隔开
 */
 // [task_local]
-// */60 * * * * http://47.101.146.160/scripts/jkd.js, tag=聚看点, img-url=circles.hexagongrid.fill.system, enabled=true
 
 const $ = new Env('聚看点');
 let status;
@@ -46,6 +44,8 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
           jkdck = jkdckArr[i]
           $.index = i + 1;
         
+console.log(`\n群【970932401】`)
+console.log(`\n天雪楼【http://txlou.club】`)
           console.log(`\n开始【聚看点${$.index}】`)
 
 await qx()
