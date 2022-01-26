@@ -38,8 +38,6 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
             jkdckArr.push($.getdata(`jkdck${i}`))
             }
     console.log(`------------- 共${jkdhdArr.length}个账号-------------\n`)
-      console.log(`\n群【970932401】`)
-          console.log(`\n天雪楼【http://txlou.club】`)
 for (let i = 0; i < jkdhdArr.length; i++) {
         if (jkdhdArr[i]) {
           jkdhd = jkdhdArr[i];
