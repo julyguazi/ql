@@ -38,14 +38,14 @@ var timestamp = Math.round(new Date().getTime()/1000).toString();
             jkdckArr.push($.getdata(`jkdck${i}`))
             }
     console.log(`------------- 共${jkdhdArr.length}个账号-------------\n`)
-      for (let i = 0; i < jkdhdArr.length; i++) {
+      console.log(`\n群【970932401】`)
+          console.log(`\n天雪楼【http://txlou.club】`)
+for (let i = 0; i < jkdhdArr.length; i++) {
         if (jkdhdArr[i]) {
           jkdhd = jkdhdArr[i];
           jkdck = jkdckArr[i]
           $.index = i + 1;
-        
-          console.log(`\n群【970932401】`)
-          console.log(`\n天雪楼【http://txlou.club】`)
+       
           console.log(`\n开始【聚看点${$.index}】`)
 
 await qx()
