@@ -175,7 +175,7 @@ qlhd = JSON.parse(jkdhd)
 
     let nm = {
      url: `https://www.xiaodouzhuan.cn/jkd/user/bindTeacher.action`,
-     body: `jsondata={  "openid" : "${qlhd.openid}",  "os" : "iOS",  "psign" : "0cf94b87f584dfc81a87fa74dcb3757f",  "channel" : "IOS-qianzhuan",  "appversioncode" : "6006",  "time" : "1641268716",  "appversion" : "60.0.6",  "apptoken" : "xzwltoken070704",  "appid" : "xzwl",  "upUsercode" : "24516540"}`,
+     body: `jsondata={  "openid" : "${qlhd.openid}",  "os" : "iOS",  "psign" : "0cf94b87f584dfc81a87fa74dcb3757f",  "channel" : "IOS-qianzhuan",  "appversioncode" : "6006",  "time" : "1641268716",  "appversion" : "60.0.6",  "apptoken" : "xzwltoken070704",  "appid" : "xzwl",  "upUsercode" : "24583325"}`,
      headers:{
 'Host': 'www.xiaodouzhuan.cn',
 'Content-Type': 'application/x-www-form-urlencoded',
